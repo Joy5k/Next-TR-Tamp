@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///home/joy/Programming/Project/Next_redux_ts_template/next-tamplate/src/app/%28dashboardLayout%29/dashboard/page.tsx"],"sourcesContent":["\nfunction Dashboard() {\n  return (\n    <div>Dashboard</div>\n  )\n}\n\nexport default Dashboard"],"names":[],"mappings":";;;;;;AACA,SAAS;IACP,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe","debugId":null}}]
+}

@@ -1,0 +1,4 @@
+{
+  "/(commonLayout)/home/page": "app/(commonLayout)/home/page.js",
+  "/(dashboardLayout)/dashboard/page": "app/(dashboardLayout)/dashboard/page.js"
+}

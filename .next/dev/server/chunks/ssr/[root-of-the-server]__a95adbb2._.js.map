@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///home/joy/Programming/Project/Next_redux_ts_template/next-tamplate/src/app/%28commonLayout%29/home/page.tsx"],"sourcesContent":["import React from 'react'\n\nfunction Home() {\n  return (\n    <div>Home</div>\n  )\n}\n\nexport default Home"],"names":[],"mappings":";;;;;;AAEA,SAAS;IACP,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe","debugId":null}}]
+}

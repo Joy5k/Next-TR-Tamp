@@ -1,0 +1,111 @@
+/* components/Navbar.module.css */
+
+.navbar {
+  background: #333;
+  color: white;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 24px;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Desktop Menu */
+.navMenu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  transition: all 0.2s ease-out;
+}
+
+.navLink:hover {
+  color: #17a2b8;
+  border-bottom: 3px solid #17a2b8;
+}
+
+/* Mobile Icon */
+.mobileIcon {
+  display: none; /* Hide by default */
+}
+
+/* Mobile Menu */
+.navMenuMobile {
+  display: none; /* Hide by default */
+}
+
+/* --- Media Query for Mobile --- */
+@media screen and (max-width: 960px) {
+  .navMenu {
+    display: none; /* Hide desktop menu */
+  }
+
+  .mobileIcon {
+    display: block; /* Show hamburger icon */
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .navMenuMobile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 70px; /* Position below navbar */
+    left: -100%; /* Start off-screen */
+    opacity: 1;
+    transition: all 0.5s ease;
+    background: #333;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navMenuMobile.active {
+    left: 0; /* Slide in */
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .navLinkMobile {
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  .navLinkMobile:hover {
+    background: #17a2b8;
+    color: white;
+    transition: 250ms;
+  }
+}

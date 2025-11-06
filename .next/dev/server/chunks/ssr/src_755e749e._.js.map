@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/joy/Programming/Project/Next_redux_ts_template/next-tamplate/src/components/Footer/Footer.tsx"],"sourcesContent":["import React from 'react'\n\nfunction Footer() {\n  return (\n    <div>Footer</div>\n  )\n}\n\nexport default Footer"],"names":[],"mappings":";;;;;;AAEA,SAAS;IACP,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe","debugId":null}},
+    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":["file:///home/joy/Programming/Project/Next_redux_ts_template/next-tamplate/src/components/Navbar/Navbar.tsx"],"sourcesContent":["\nfunction Navbar() {\n  return (\n    <div>Navbar</div>\n  )\n}\n\nexport default Navbar"],"names":[],"mappings":";;;;;;AACA,SAAS;IACP,qBACE,8OAAC;kBAAI;;;;;;AAET;uCAEe","debugId":null}},
+    {"offset": {"line": 44, "column": 0}, "map": {"version":3,"sources":["file:///home/joy/Programming/Project/Next_redux_ts_template/next-tamplate/src/app/%28commonLayout%29/layout.tsx"],"sourcesContent":["import Footer from \"@/src/components/Footer/Footer\";\nimport Navbar from \"@/src/components/Navbar/Navbar\";\n\n\nconst CommonLayout = ({ children }: { children: React.ReactNode }) => {\n  return (\n    <>\n      <Navbar />\n      <div >{children}</div>\n      <Footer />\n    </>\n  );\n};\n\nexport default CommonLayout;"],"names":[],"mappings":";;;;;AAAA;AACA;;;;AAGA,MAAM,eAAe,CAAC,EAAE,QAAQ,EAAiC;IAC/D,qBACE;;0BACE,8OAAC,iJAAM;;;;;0BACP,8OAAC;0BAAM;;;;;;0BACP,8OAAC,iJAAM;;;;;;;AAGb;uCAEe","debugId":null}}]
+}
