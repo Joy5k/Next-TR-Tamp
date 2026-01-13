@@ -1,12 +1,8 @@
 
 import HomePage from './home/page'
 
-function page() {
+export default function Page() {
   return (
-    <div>
-        <HomePage></HomePage>
-    </div>
+    <HomePage />
   )
 }
-
-export default page

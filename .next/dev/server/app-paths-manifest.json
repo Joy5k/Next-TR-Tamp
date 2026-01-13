@@ -1,4 +1,4 @@
 {
-  "/(commonLayout)/home/page": "app/(commonLayout)/home/page.js",
-  "/(dashboardLayout)/dashboard/page": "app/(dashboardLayout)/dashboard/page.js"
+  "/(commonLayout)/page": "app/(commonLayout)/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
 }

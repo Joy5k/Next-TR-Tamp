@@ -23,7 +23,7 @@ interface NavbarProps {
 }
 
 const Navbar = ({ 
-  logo = { text: 'Logo', href: '/' }, 
+  logo = { text: 'Joy-Web Solutions', href: '/' }, 
   navItems = defaultNavItems,
   className = '' 
 }: NavbarProps) => {
@@ -62,10 +62,10 @@ const Navbar = ({
           <div className="flex items-center">
             <Link 
               href={logo.href || '/'} 
-              className="flex-shrink-0 flex items-center"
+              className="shrink-0 flex items-center"
             >
-              <div className="h-8 w-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center mr-3">
-                <span className="text-white font-bold text-sm">L</span>
+              <div className="h-8 w-8 bg-linear-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center mr-3">
+                <span className="text-white font-bold text-sm">JWS</span>
               </div>
               <span className="text-xl font-bold text-gray-900">
                 {logo.text}
@@ -132,7 +132,7 @@ const Navbar = ({
             {/* CTA Button */}
             <Link
               href="/get-started"
-              className="ml-4 px-4 py-2 rounded-md bg-gradient-to-r from-blue-500 to-purple-600 text-white text-sm font-medium hover:from-blue-600 hover:to-purple-700 transition-all shadow-md hover:shadow-lg"
+              className="ml-4 px-4 py-2 rounded-md bg-linear-to-r from-blue-500 to-purple-600 text-white text-sm font-medium hover:from-blue-600 hover:to-purple-700 transition-all shadow-md hover:shadow-lg"
             >
               Get Started
             </Link>
@@ -209,7 +209,7 @@ const Navbar = ({
               {/* Mobile CTA Button */}
               <Link
                 href="/get-started"
-                className="block w-full mt-4 px-4 py-2 text-center rounded-md bg-gradient-to-r from-blue-500 to-purple-600 text-white text-base font-medium hover:from-blue-600 hover:to-purple-700 transition-all"
+                className="block w-full mt-4 px-4 py-2 text-center rounded-md bg-linear-to-r from-blue-500 to-purple-600 text-white text-base font-medium hover:from-blue-600 hover:to-purple-700 transition-all"
               >
                 Get Started
               </Link>
